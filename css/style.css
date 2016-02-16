@@ -1,3 +1,22 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -11,10 +30,13 @@ body {
   font-weight: 400;
 }
 
+
+
 .container {
 width: 100%;
 max-width: 1100px;
 margin: 0 auto;
+clear:both;
 }
 
 a {
@@ -32,7 +54,7 @@ header #logo {
 }
 
 header nav {
-  float: right;
+float: right;
   margin-top: 15px;
 }
 header nav ul li {
@@ -95,7 +117,7 @@ nav ul > li li:hover   {
 
 .graphic {
   background: url(../images/US_Capitol_Building,_East_side_steps_and_dome.jpg) no-repeat center #131e27;
-  height: 300px;
+  height: 400px;
   background-size: cover;
   padding: 100px 100px;
 }
@@ -110,6 +132,10 @@ nav ul > li li:hover   {
   width: 200px;
 }
 
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
 
 h2 {
   font-size: 1.5em;
@@ -119,7 +145,12 @@ h4 {
   font-size: .75em;
 }
 
-p {
+p{
+  color: #2d2d2d;
+  font-size: 1.1em;
+}
+
+p.tj_quote {
   color: white;
   font-size: 1.1em;
   padding-right: 50%;
@@ -148,9 +179,53 @@ footer img:hover {
   opacity: 50%;
 }
 
+/******************************************
+/* ABOUT PAGE
+/*******************************************/
 
+.body_about {
+  padding: 15px 25px;
+  overflow: hidden;
+} 
 
+.auf_description, .aupac_description, .patg_description, .feusa_description {
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 10px;
+}
 
+.auf_description img, .aupac_description img, .patg_description img  {
+  width: 200px;
+} 
+
+.feusa_description img {
+  width: 250px;
+}
+
+.body_about h1 {
+  margin: 20px 0;
+}
+
+#clients h2 {
+  padding-top: 15px;
+}
+
+#clients div {
+  padding-bottom: 20px;
+}
+
+#AllStrat_description {
+  background-color: #aa1e21;
+  float: right;
+  width: 250px;
+  padding: 15px 15px 100px 15px;
+  margin-left: 20px;
+}
+
+#AllStrat_description h1 {
+  color: white;
+}
 
 
 
