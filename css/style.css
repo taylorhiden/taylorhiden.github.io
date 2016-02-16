@@ -227,5 +227,30 @@ footer img:hover {
   color: white;
 }
 
+/******************************************
+/* ADVOCACY PAGE
+/*******************************************/
+
+.readtax, .readimmigration, .readlgbt {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#map {
+  height: 500px no-repeat; 
+  width: 70%;
+}
+
+.lgbt, .immigration, .taxReform{
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 0;
+}
+.lgbt img, .immigration img, .taxReform img {
+  width: 150px;
 
 
