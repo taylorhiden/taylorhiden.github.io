@@ -18,7 +18,6 @@ function readTax() {
 
 
 // DIGITAL PAGE
-
 $(document).ready(function() {
 
 var pictures = ['images/array/Haley.jpg', 'images/array/Margaret quote.jpg', 'images/array/McKinnon.jpg', 'images/array/delegates post-IA.jpg'];
