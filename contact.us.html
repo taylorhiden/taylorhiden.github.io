@@ -4,9 +4,12 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Allegiance Strategies, LLC is a niche public affairs consulting firm focused on helping clients achieve a pro-growth, competitive, and inclusive America.">
 
-		<title>About Us</title>
+		<title>Contact Us</title>
 		<link href='https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700,500' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="images/allstrat_logo_favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
@@ -15,7 +18,7 @@
 	<body>
 		<div class="container">
 				<header>
-					<a id="logo" href="index.html"><img src="images/allstrat_logo.png" alt="Allegiance Logo" style="width:350px;"></a>
+					<a id="logo" href="index.html"><img src="images/allstrat_logo.png" alt="Allegiance Logo"></a>
 					<nav>
 						<ul>
 							<li><a href="about.html" alt="about" class="dropdown">About</a>
@@ -32,7 +35,6 @@
 								</ul>
 							</li>
 							<li><a href="#">Careers</a></li>
-							<li><a href="#">Blog</a></li>
 							<li><a href="#">Contact Us</a></li>
 							
 						</ul>
@@ -40,7 +42,31 @@
 					</nav>
 
 				</header>
-				<form 
+			<section id="contact">
+					<h1>Contact Us</h1>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="yourName">Name:</label>
+						<input type="text" name="firstName" placeholder="First" id="first" style="width:100%">
+						<input type="text" name="lastName" placeholder="Last" id="last" style="width:100%">
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" name="email" style="width:100%">
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject:</label>
+						<input type="text" name="subject" style="width:100%">
+					</div>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea name="message" style="width:100%;height:150px;"></textarea>
+					</div>
+					<div class="form-group">
+						<button id="submit" class="btn btn-default" type="submit">Sumbit</button>
+					</div>
+				</form>
+			</section>
 				
 
 </div>
