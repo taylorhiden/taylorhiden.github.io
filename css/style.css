@@ -30,8 +30,6 @@ body {
   font-weight: 400;
 }
 
-
-
 .container {
 width: 100%;
 max-width: 1100px;
@@ -124,6 +122,29 @@ nav li .line {
   cursor: pointer;
 }
 
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: .75em;
+}
+
+p{
+  color: #2d2d2d;
+  font-size: 1.1em;
+}
+
+/******************************************
+/* HOME PAGE
+/*******************************************/
+
 .description {
   color: white;
   font-size: 1.5em;
@@ -148,24 +169,6 @@ nav li .line {
 .advocacy img, .development img, .digital img {
   width: 200px;
   margin: auto;
-}
-
-h1 {
-  font-size: 2em;
-  text-align: center;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-h4 {
-  font-size: .75em;
-}
-
-p{
-  color: #2d2d2d;
-  font-size: 1.1em;
 }
 
 p.tj_quote {
@@ -206,19 +209,27 @@ footer img:hover {
   overflow: hidden;
 } 
 
-.auf_description, .aupac_description, .patg_description, .feusa_description {
+.auf_description, .aupac_description, .patg_description {
   width: 22%;
   display: inline-block;
   text-align: center;
-  margin: 40px 10px;
+  margin: 40px 10px 30px 10px;
 }
+
+.feusa_description, .uscri_description {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 10px;
+}
+
 
 .auf_description img, .aupac_description img, .patg_description img  {
   width: 200px;
   margin: auto;
 } 
 
-.feusa_description img {
+.feusa_description img, .uscri_description img {
   width: 250px;
   margin: auto;
 }
@@ -239,8 +250,9 @@ footer img:hover {
   background-color: #aa1e21;
   float: right;
   width: 250px;
-  padding: 15px 15px 100px 15px;
+  padding: 15px 15px 150px 15px;
   margin-left: 20px;
+  margin-top: 90px;
 }
 
 #AllStrat_description h1 {
@@ -253,6 +265,12 @@ footer img:hover {
  
 #digital p {
   margin: 30px 30px;
+}
+
+#digital h2 {
+  padding: 20px 20px;
+  background: #dadada;
+  margin-bottom: 30px;
 }
 
 #graphics {
@@ -269,12 +287,21 @@ footer img:hover {
   width: 40%;
 }
 
+.logos {
+  padding-bottom: 30px;
+}
+
 #PR_logo {
   padding-right: 40px;
   margin-left: 10%;
   vertical-align: 250%;
 }
 
+.infographics img {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 30px;
+}
 
 
 
@@ -324,9 +351,34 @@ footer img:hover {
   font-size: 1em;
 }
 
+/******************************************
+/* OUR TEAM PAGE
+/*******************************************/
 
+.col-md-8 h2 {
+  background: #dadada;
+  padding-left: 5px;
+}
 
+.img-rounded {
+  border: 3px solid #dadada;
+}
 
+.row {
+  margin-bottom: 20px;
+}
+
+.row p {
+  font-size: .9em;
+}
+
+.row img:hover {
+  opacity: 50%;
+}
+
+#erika_headshot {
+  margin-left: 20%;
+}
 
 
 
