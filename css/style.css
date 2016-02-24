@@ -116,7 +116,7 @@ nav .line{
   margin-top: .25em;
 }
 
-nav li:first-child {
+nav li.hamburger {
   float: right;
   display: none;
   cursor: pointer;
