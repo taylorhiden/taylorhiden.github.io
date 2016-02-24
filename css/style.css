@@ -116,10 +116,14 @@ nav .line{
   margin-top: .25em;
 }
 
-nav li .line {
-  float:right;
+nav li:first-child {
+  float: right;
   display: none;
   cursor: pointer;
+}
+
+nav .line:first-of-type{
+  margin-top:.7em;
 }
 
 
@@ -304,7 +308,6 @@ footer img:hover {
 }
 
 
-
 /******************************************
 /* ADVOCACY PAGE
 /*******************************************/
@@ -331,6 +334,14 @@ footer img:hover {
 .lgbt img, .immigration img, .taxReform img {
   width: 150px;
   margin: auto;
+}
+
+#advocacy h1 {
+  padding-bottom: 20px;
+}
+#advocacy h2 {
+  background-color: #dadada;
+  padding: 20px 20px;
 }
 
 /******************************************
@@ -380,9 +391,76 @@ footer img:hover {
   margin-left: 20%;
 }
 
+/******************************************
+/* DEVELOPMENT PAGE
+/*******************************************/
+
+#myTabs {
+  margin-bottom: 200px;
+}
+
+#development p {
+  margin-bottom: 50px;
+}
+
+.tab-pane {
+  padding-top: 30px;
+
+}
+
+.tab-content {
+  margin: auto;
+  height: 200px;
+  width: 70%;
+}
+
+.nav.nav-pills {
+  margin: auto;
+  background-color: #dadada;
+  text-align: center;
+  padding-left: 20%;
+}
+
+.nav-pills a {
+  color: #b32317;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #b32317;
+}
+
+#development p {
+  padding-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
 
 
 
 
 
+
+@media screen and (max-width: 865px) {
+
+header nav li:first-child {
+    display: block;
+    float: right;
+  }
+
+header nav li {
+  display: inline-block;
+}
+
+header nav ul {
+  width: 150px;
+  height: 45px;
+  overflow: hidden;
+  transition: height 1s ease;
+ }
+
+.appear {
+    height: 150px;
+  }
+
+}
 

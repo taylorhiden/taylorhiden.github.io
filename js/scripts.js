@@ -17,37 +17,7 @@ function readTax() {
 }
 
 
-// DIGITAL PAGE
-$(document).ready(function() {
-
-var pictures = ['images/array/Haley.jpg', 'images/array/Margaret quote.jpg', 'images/array/McKinnon.jpg', 'images/array/delegates post-IA.jpg'];
-var currentImage = 0;
-
-$('#nextbtn').click(function() {
-	event.preventDefault();
-	currentImage = currentImage + 1;
-
-	if (currentImage == pictures.length) {
-           currentImage = 0;
-       }
-
-$('#facebook_graphics').attr('src', pictures[currentImage]);
-   });
-
-$('#previousbtn').click(function() {
-       currentImage = currentImage - 1;
-
- if (currentImage < 0) {
-     currentImage = pictures.length - 1;
-       }
-
- $('#facebook_graphics').attr('src', pictures[currentImage]);
-   });
-
-});
-
-
-//Development Page
+//DEVELOPMENT PAGE
 
 $('#myTabs a').click(function (e) {
   e.preventDefault();
@@ -58,3 +28,68 @@ $('#myTabs a').click(function (e) {
 	$('#myTabs a:last').tab('show'); // Select last tab
 	$('#myTabs li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 });
+
+
+//MEDIA
+
+$(document).ready(function(){
+
+$('.hamburger').click(function(){
+
+$('header ul').toggleClass('appear');
+
+
+});
+
+
+});
+
+//CONTACT PAGE
+
+$("form").submit(checkEverything);
+ 
+   function checkEverything(event) {
+   		event.preventDefault();
+
+   		checkName();
+   		checkEmail();
+      	checkSubject();
+   }
+
+   function checkName () {
+
+       var firstName = $('#first').val();
+       console.log(firstName);
+
+       var lastName = $('#last').val();
+
+       if (firstName == false) {
+           alert("Please enter your first name");
+       } else if (lastName == false) {
+           alert("Please enter your last name");
+       } else if (firstName == false && lastName == false){
+          alert("Please enter your first and last name")
+       } else if (firstName == true && lastName == true) {
+       }
+   }
+
+   function checkEmail() {
+
+   		var email = $('#email').val();
+
+   		if (email == false) {
+   		 alert('Invalid email');
+   		} else {
+   			
+   		}
+   }
+
+   function checkSubject() {
+   		var subject = $('#subject').val();
+
+   		if (subject == false) {
+   			alert('Please enter a subject')
+   		} else {
+   			
+   		}
+   }
