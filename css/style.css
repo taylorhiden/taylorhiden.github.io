@@ -265,12 +265,13 @@ footer img:hover {
  
 #digital p {
   margin: 30px 30px;
+  text-align: center;
 }
 
 #digital h2 {
-  padding: 20px 20px;
+  padding: 10px 20px;
   background: #dadada;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 #graphics {
@@ -320,6 +321,10 @@ footer img:hover {
 
 .infographics {
   margin: auto;
+}
+
+#advances {
+  margin: 0 28%;
 }
 
 
@@ -454,7 +459,10 @@ footer img:hover {
   margin-top: 20px;
 }
 
-
+.tab-pane img {
+  padding-top: 20px;
+  margin: 0 33%;
+}
 
 
 
