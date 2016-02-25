@@ -625,6 +625,9 @@ p.tj_quote {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px 15px 15px 15px;
+  margin-top: 0;
+  float: none;
+  margin-left: 0;
 }
 
 .nav-pills>li {
@@ -647,6 +650,15 @@ p.tj_quote {
 }
 .graphic {
   padding: 0 0;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+#graphics {
+  width: 100% !important;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
 }
