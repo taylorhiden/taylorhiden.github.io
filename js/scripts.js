@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 $('.hamburger').click(function(){
 
-$('header ul').toggleClass('appear');
+$('header .main_menu').toggleClass('appear');
 
 
 });
@@ -90,6 +90,6 @@ $("form").submit(checkEverything);
    		if (subject == false) {
    			alert('Please enter a subject')
    		} else {
-   			
+
    		}
    }

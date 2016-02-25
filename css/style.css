@@ -65,7 +65,7 @@ header nav ul li {
 header nav ul li a {
   color: #417292;
   padding: 0 10px;
-
+  display: block;
 }
 nav a:hover {
   background: #407192;
@@ -94,7 +94,7 @@ nav ul > li li {
 
 nav ul > li li a { 
   color: white; 
-  display: inline; 
+  display: block; 
   margin: 0 1px; 
   padding: 12px 25px 12px 15px; 
 }
@@ -212,31 +212,26 @@ footer img:hover {
   padding: 15px 25px;
   overflow: hidden;
 } 
+#descriptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 40%;
+  align-items: center;
+  justify-content: center;
+}
 
-.auf_description, .aupac_description, .patg_description {
-  width: 22%;
-  display: inline-block;
+.client_description {
   text-align: center;
-  margin: 40px 10px 30px 10px;
+  vertical-align: middle;
+  padding: 0 30px;
 }
 
-.feusa_description, .uscri_description {
-    width: 32%;
-    display: inline-block;
-    text-align: center;
-    margin: 40px 10px;
-}
-
-
-.auf_description img, .aupac_description img, .patg_description img  {
-  width: 200px;
+.client_description img {
+  width: 250px;
   margin: auto;
 } 
 
-.feusa_description img, .uscri_description img {
-  width: 250px;
-  margin: auto;
-}
 
 .body_about h1 {
   margin: 20px 0;
@@ -253,9 +248,9 @@ footer img:hover {
 #AllStrat_description {
   background-color: #aa1e21;
   float: right;
-  width: 250px;
+  width: 210px;
   padding: 15px 15px 150px 15px;
-  margin-left: 20px;
+  margin-left: 5%;
   margin-top: 90px;
 }
 
@@ -362,6 +357,10 @@ footer img:hover {
   font-size: 1em;
 }
 
+#contact {
+  margin: 0 10%;
+}
+
 /******************************************
 /* OUR TEAM PAGE
 /*******************************************/
@@ -443,8 +442,7 @@ footer img:hover {
 @media screen and (max-width: 865px) {
 
 header nav li:first-child {
-    display: block;
-    float: right;
+    display: inline-block;
   }
 
 header nav li {
@@ -458,9 +456,65 @@ header nav ul {
   transition: height 1s ease;
  }
 
+
 .appear {
-    height: 150px;
+    height: 300px;
   }
 
+nav ul > li ul   { 
+  background: white;  
+  display: block; 
+  margin: 0;
+  position: relative; 
+  z-index: 1000;
+      -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+           box-shadow: none; 
 }
+
+nav ul > li:hover ul { 
+ display: block;
+ padding: 0 0; 
+}
+
+nav a:hover {
+  background: white;
+  color: #417292;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+nav ul > li li:hover   { 
+  background: white; 
+}
+
+nav ul > li li { 
+  float: none;
+  font-size: 18px;
+  color: #417292; 
+}
+
+nav ul > li li a { 
+  color: #417292; 
+  display: inline; 
+  margin: 0 1px; 
+  padding: 12px 25px 0px 15px; 
+}
+
+nav ul > li li a .sub{ 
+  color: #417292; 
+  display: inline; 
+  margin: 0 1px; 
+  padding: 0 0;
+}
+
+header nav ul li a {
+    color: #417292;
+    padding: 0 0;
+}
+
+.main_menu ul {
+  height: auto;
+}
+
 
