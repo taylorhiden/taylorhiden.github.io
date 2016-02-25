@@ -43,8 +43,8 @@ a {
 }
 
 header {
-  padding: 3% 3%;
-  margin: 2% 2%;
+  padding: 2% 3%;
+  margin: 0 2%;
   overflow: hidden;
 }
 
@@ -53,7 +53,7 @@ header img {
 }
 
 header nav {
-float: right;
+  float: right;
   margin-top: 15px;
 }
 header nav ul li {
@@ -179,8 +179,7 @@ p{
 p.tj_quote {
   color: white;
   font-size: 1.1em;
-  padding-right: 50%;
-  padding: 75px 50% 10px 50px;
+  padding: 5% 50% 10% 50px;
 }
 
 article {
@@ -217,7 +216,7 @@ footer img:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-basis: 40%;
+  flex-basis: 30%;
   align-items: center;
   justify-content: center;
 }
@@ -225,12 +224,11 @@ footer img:hover {
 .client_description {
   text-align: center;
   vertical-align: middle;
-  padding: 0 30px;
+  padding: 20px 40px;
 }
 
 .client_description img {
-  width: 250px;
-  margin: auto;
+  width: 200px;
 } 
 
 
@@ -240,6 +238,7 @@ footer img:hover {
 
 #clients h2 {
   padding-top: 15px;
+  font-size: 1em;
 }
 
 #clients div {
@@ -250,7 +249,7 @@ footer img:hover {
   background-color: #aa1e21;
   float: right;
   width: 210px;
-  padding: 15px 15px 150px 15px;
+  padding: 15px 15px 32% 15px;
   margin-left: 5%;
   margin-top: 90px;
 }
@@ -372,9 +371,6 @@ footer img:hover {
   margin-bottom: 10px;
 }
 
-#contact h1 {
-  margin-bottom: 40px;
-}
 
 #submit {
   background-color: #b32317;
@@ -384,6 +380,11 @@ footer img:hover {
 
 #contact {
   margin: 0 10%;
+}
+
+#contact p {
+  padding: 20px 0;
+  text-align: center;
 }
 
 /******************************************
@@ -464,8 +465,22 @@ footer img:hover {
   margin: 0 33%;
 }
 
+/******************************************
+/* CAREERS PAGE
+/*******************************************/
 
+#careers {
+  margin-bottom: 450px;
+}
 
+#careers p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/******************************************
+/* MEDIA QUERY
+/*******************************************/
 
 @media screen and (max-width: 865px) {
 
@@ -543,6 +558,39 @@ header nav ul li a {
 
 .main_menu ul {
   height: auto;
+}
+
+p.tj_quote {
+  color: white;
+  font-size: 1em;
+  padding: 10% 35% 15% 20px;
+}
+
+/******************************************
+/* SMALLER MEDIA QUERY
+/*******************************************/
+
+@media screen and (max-width: 720px) {
+
+section.digital, section.development, section.advocacy {
+  width: 100%;
+}
+
+section.lgbt, section.immigration, section.taxReform {
+  width: 100%;
+}
+
+p.tj_quote {
+  color: white;
+  font-size: 1em;
+  padding: 15% 20px;
+}
+
+.nav.nav-pills {
+    margin: auto;
+    background-color: #dadada;
+    text-align: center;
+    padding: 0 5%;
 }
 
 
