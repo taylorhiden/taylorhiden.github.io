@@ -495,7 +495,7 @@ header nav li {
 
 header nav ul {
   width: 150px;
-  height: 45px;
+  height: 44px;
   overflow: hidden;
   transition: height 1s ease;
  }
@@ -624,6 +624,7 @@ p.tj_quote {
 #AllStrat_description {
   width: 100%;
   margin-bottom: 20px;
+  padding: 10px 15px 15px 15px;
 }
 
 .nav-pills>li {
@@ -643,6 +644,9 @@ p.tj_quote {
 
 .bios {
   width: 100%;
+}
+.graphic {
+  padding: 0 0;
 }
 
 }
