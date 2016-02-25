@@ -93,3 +93,4 @@ $("form").submit(checkEverything);
 
    		}
    }
+

@@ -37,6 +37,7 @@ margin: 0 auto;
 clear:both;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -288,18 +289,37 @@ footer img:hover {
 
 .logos {
   padding-bottom: 30px;
+  display: inline;
+}
+
+.btn-primary {
+  background-color: white;
+  border: none;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #dadada;
 }
 
 #PR_logo {
-  padding-right: 40px;
-  margin-left: 10%;
-  vertical-align: 250%;
+    margin: 0 0;
+    vertical-align: 250%;
+    width: 100%;
+  }
+
+#AUC_logo {
+    margin: 0 0;
+    width: 100%;
 }
 
-.infographics img {
-  width: 60%;
-  margin-left: 20%;
-  margin-bottom: 30px;
+#benchmarks {
+  width: 100%;
+}
+
+.infographics {
+  margin: auto;
 }
 
 
