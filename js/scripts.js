@@ -2,6 +2,7 @@
 $('.readlgbt').click(readLgbt);
 $('.readimmigration').click(readImmigration);
 $('.readtax').click(readTax);
+$('.readenergy').click(readEnergy);
 
 
 function readLgbt() {
@@ -14,6 +15,10 @@ function readImmigration() {
 
 function readTax() {
 	$('#show_tax_on_click').slideToggle();
+}
+
+function readEnergy() {
+  $('#show_energy_on_click').slideToggle();
 }
 
 
