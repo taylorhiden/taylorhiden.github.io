@@ -165,13 +165,13 @@ p{
   padding: 100px 100px;
 }
 
-.advocacy, .development, .digital{
-  width: 33%;
+.advocacy, .development, .digital, .events{
+  width: 24%;
   display: inline-block;
   text-align: center;
   margin: 40px 0;
 }
-.advocacy img, .development img, .digital img {
+.advocacy img, .development img, .digital img, .events img {
   width: 200px;
   margin: auto;
 }
@@ -222,13 +222,23 @@ footer img:hover {
 }
 
 .client_description {
-  text-align: center;
-  vertical-align: middle;
-  padding: 20px 40px;
+    height: 250px; 
+    width: 300px; 
+    position: relative;
 }
 
 .client_description img {
-  width: 200px;
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    padding: 0 30px;
 } 
 
 
@@ -246,16 +256,7 @@ footer img:hover {
 }
 
 #AllStrat_description {
-  background-color: #aa1e21;
-  float: right;
-  width: 210px;
-  padding: 15px 15px 32% 15px;
-  margin-left: 5%;
-  margin-top: 90px;
-}
-
-#AllStrat_description h1 {
-  color: white;
+  padding-bottom: 50px;
 }
 /******************************************
 /* DIGITAL PAGE
