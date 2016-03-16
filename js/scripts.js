@@ -1,9 +1,20 @@
 // ADVOCACY PAGE
+$('.readgiving').click(readGiving);
 $('.readlgbt').click(readLgbt);
 $('.readimmigration').click(readImmigration);
 $('.readtax').click(readTax);
 $('.readenergy').click(readEnergy);
+$('.readestatetax').click(readEstatetax);
+$('.readinvestment').click(readInvestment);
+$('.readmessaging').click(readMessaging);
+$('.readtech').click(readTech);
+$('.readwater').click(readWater);
+$('.readschool').click(readSchool);
 
+
+function readGiving() {
+  $('#show_giving_on_click').slideToggle();
+}
 
 function readLgbt() {
 	$('#show_lgbt_on_click').slideToggle();
@@ -19,6 +30,30 @@ function readTax() {
 
 function readEnergy() {
   $('#show_energy_on_click').slideToggle();
+}
+
+function readEstatetax() {
+  $('#show_estate_on_click').slideToggle();
+}
+
+function readInvestment() {
+  $('#show_investment_on_click').slideToggle();
+}
+
+function readMessaging() {
+  $('#show_message_on_click').slideToggle();
+}
+
+function readTech() {
+  $('#show_tech_on_click').slideToggle();
+}
+
+function readWater() {
+  $('#show_water_on_click').slideToggle();
+}
+
+function readSchool() {
+  $('#show_schools_on_click').slideToggle();
 }
 
 

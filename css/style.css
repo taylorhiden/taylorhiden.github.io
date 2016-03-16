@@ -333,7 +333,7 @@ footer img:hover {
 /* ADVOCACY PAGE
 /*******************************************/
 
-.readtax, .readimmigration, .readlgbt {
+.readtax, .readimmigration, .readlgbt, .readenergy, .readestatetax, .readinvestment, .readmessaging, .readtech, .readwater, .readschool. .readgiving {
   cursor: pointer;
 }
 
@@ -346,13 +346,13 @@ footer img:hover {
   width: 70%;
 }
 
-.lgbt, .immigration, .taxReform{
-  width: 33%;
+.lgbt, .immigration, .taxReform, .energy, .estatetax, .investment, .messaging, .technology, .water, .schools, .giving{
+  width: 24%;
   display: inline-block;
   text-align: center;
   margin: 40px 0;
 }
-.lgbt img, .immigration img, .taxReform img {
+.lgbt img, .immigration img, .taxReform img, .energy img, .estatetax img, .investment img, .messaging img, .technology img, .water img, .schools img, .giving img {
   width: 150px;
   margin: auto;
 }
@@ -363,6 +363,18 @@ footer img:hover {
 #advocacy h2 {
   background-color: #dadada;
   padding: 10px 20px;
+}
+
+#advocacy h3 {
+  font-size: 1.2em;
+}
+
+#advocacy h4 {
+  font-size: 1em;
+}
+
+#advocacy p {
+  font-size: 1em;
 }
 
 /******************************************
