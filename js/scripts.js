@@ -134,3 +134,7 @@ $("form").submit(checkEverything);
    		}
    }
 
+   //ABOUT PAGE
+
+
+

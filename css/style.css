@@ -240,8 +240,12 @@ footer img:hover {
     right: 0;  
     margin: auto;
     padding: 0 30px;
+    opacity:0.5;
 } 
 
+.client_description img:hover {
+  opacity: 1.0;
+}
 
 .body_about h1 {
   margin: 20px 0;
@@ -259,6 +263,8 @@ footer img:hover {
 #AllStrat_description {
   padding-bottom: 50px;
 }
+
+
 /******************************************
 /* DIGITAL PAGE
 /*******************************************/
