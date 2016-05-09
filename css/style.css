@@ -499,6 +499,24 @@ footer img:hover {
 }
 
 /******************************************
+/* DAESH PAGE
+/*******************************************/
+
+#call_them_daesh {
+  margin-bottom: 100px;
+}
+
+#daesh_description {
+  margin-top: 25px;
+}
+
+#Daesh_img {
+  float: right;
+  width: 350px;
+  margin-top: 30px;
+}
+
+/******************************************
 /* MEDIA QUERY
 /*******************************************/
 
